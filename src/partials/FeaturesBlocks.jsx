@@ -9,7 +9,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">How it works</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className="text-xl text-gray-400"> Our software is designed to enhance media authenticity by combining advanced technology with community involvement. By implementing a comprehensive verification system, we empower users to ensure their content is genuine and trustworthy.</p>
           </div>
 
           {/* Items */}
@@ -22,8 +22,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Professional Verification</h4>
+              <p className="text-lg text-gray-400 text-center">Only professionals from authorized organizations or those with substantial industry experience are allowed to upload content, enhancing overall authenticity.</p>
             </div>
 
             {/* 2nd item */}
@@ -33,8 +33,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">AI Detection</h4>
+              <p className="text-lg text-gray-400 text-center">The platform employs advanced AI algorithms trained to recognize specific traits of AI-generated content, distinguishing it from authentic media.</p>
             </div>
 
             {/* 3rd item */}
@@ -47,8 +47,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Verification Code:</h4>
+              <p className="text-lg text-gray-400 text-center">Verified media is marked with a unique code and company logo. Viewers can enter this code on the website to view the original post and its verification details.</p>
             </div>
 
             {/* 4th item */}
@@ -60,8 +60,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Website Access</h4>
+              <p className="text-lg text-gray-400 text-center">Viewers can enter the verification code on the website to see the original media and its verification details, ensuring transparency.</p>
             </div>
 
             {/* 5th item */}
@@ -73,8 +73,8 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Community Feedback</h4>
+              <p className="text-lg text-gray-400 text-center">Users can downvote media that they believe lacks authenticity, influencing its verified status based on a like-dislike ratio.</p>
             </div>
 
             {/* 6th item */}
@@ -87,8 +87,8 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Appeal Process</h4>
+              <p className="text-lg text-gray-400 text-center">Users can appeal if their work is flagged, providing additional context to restore the verified label if needed.</p>
             </div>
 
           </div>

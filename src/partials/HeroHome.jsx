@@ -42,10 +42,10 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Empowering Photographers with Authenticity
+                Empowering Authenticity: Verify, Share, Trust.
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              Empowering photographers with verified authenticity, our app uses advanced AI detection to distinguish real from AI-generated content. Available only to verified professionals, providing an added layer of trust to each shared image.
+                In a digital landscape overflowing with content, our platform ensures media authenticity for users across various industries. Join us in promoting trust and integrity in media.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
