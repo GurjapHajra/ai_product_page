@@ -63,7 +63,7 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
+            {/* <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
               <img className="mx-auto" src={HeroImage} width="1024" height="504" alt="Hero" />
               <a
                 className="absolute group"
@@ -93,7 +93,7 @@ function HeroHome() {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
 
             {/* Modal */}
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
