@@ -9,7 +9,7 @@ function HeroHome() {
 
   useEffect(() => {
     videoModalOpen ? video.current.play() : video.current.pause();
-  }, [videoModalOpen]);    
+  }, [videoModalOpen]);
 
   return (
     <section>
@@ -42,19 +42,23 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-                Empowering Authenticity: Verify, Share, Trust.
+              Empowering Authenticity: Verify, Share, Trust.
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-                In a digital landscape overflowing with content, our platform ensures media authenticity for users across various industries. Join us in promoting trust and integrity in media.
+              In a digital landscape overflowing with content, our platform ensures media authenticity for users across various industries. Join us in promoting trust and integrity in media.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Start free trial
+                <a
+                  onClick={() => document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })}
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 cursor-pointer pointer-events-auto">
+                  Get in touch
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">
+                <a
+                  onClick={() => document.getElementById('HowWorks').scrollIntoView({ behavior: 'smooth' })}
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 cursor-pointer pointer-events-auto">
                   Learn more
                 </a>
               </div>
