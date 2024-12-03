@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from '../utils/Dropdown';
+import logo from '../images/main-logo-clear.png';
 
 function Header() {
 
@@ -39,7 +40,7 @@ function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <img className="h-8 w-auto" src="src/images/mainLogoClear.png" alt="Cruip" />
+              <img className="h-8 w-auto" src={logo} alt="Cruip" />
             </Link>
           </div>
 
